@@ -1,0 +1,127 @@
+.all {
+  text-align: center;
+
+  font-size: 25px;
+}
+header {
+  background-color: rgb(73, 72, 101);
+  color: wheat;
+  margin: -40px;
+}
+.mooha p {
+  border: 1px solid gray;
+  border-radius: 5px;
+  padding: 5px;
+  font-weight: 500;
+}
+body {
+  margin: 0;
+}
+.head-1 {
+  margin-top: 90px;
+}
+
+.txt p {
+  font-size: 20px;
+  margin: -35px;
+  margin-bottom: 50px;
+  color: gray;
+}
+.txt h3 {
+  font-size: 40px;
+}
+.down {
+  text-align: center;
+  color: gray;
+  font-size: 13px;
+}
+.mooha-2 input {
+  padding: 16px;
+  letter-spacing: 3px;
+  color: black;
+  width: 290px;
+  text-align: center;
+  font-weight: 600;
+  border-radius: 5px;
+}
+.mooha-3 input {
+  padding: 17px;
+  letter-spacing: 3px;
+  background-color: rgb(40, 96, 164);
+  color: white;
+  border: 0;
+  border-radius: 5px;
+}
+.mooha-4 input {
+  padding: 17px;
+  letter-spacing: 3px;
+  background-color: black;
+  color: white;
+  border: 0;
+  border-radius: 5px;
+}
+.mooha-5 input {
+  padding: 17px;
+  letter-spacing: 3px;
+  background-color: orange;
+  color: white;
+  border: 0;
+  border-radius: 5px;
+}
+.mooha-3 ::placeholder {
+  color: white;
+}
+.mooha-4 ::placeholder {
+  color: white;
+}
+.mooha-5 ::placeholder {
+  color: white;
+}
+.mooha {
+  padding: 10px;
+  line-height: 65px;
+}
+footer {
+  background-color: rgb(73, 72, 101);
+}
+footer {
+  margin-top: 20px;
+  text-align: center;
+  padding: 20px;
+
+  color: white;
+}
+.buton {
+  text-align: center;
+}
+.buton button {
+  padding: 15px;
+  width: 130px;
+  font-weight: 600;
+  font-size: 15px;
+  background-color: orange;
+  color: white;
+  border: 0;
+}
+.gelery-1 img {
+  width: 300px;
+  border: 1px solid rgb(91, 91, 91);
+  padding: 15px;
+  border-radius: 5px;
+}
+.gelery {
+  margin-top: 100px;
+}
+.gelery-1 :hover {
+  background-color: rgb(255, 159, 159);
+  box-shadow: 10px 10px 10px;
+}
+.buton button a {
+  text-decoration: none;
+  color: white;
+}
+@media only screen and (max-width: 1200px) {
+  .mooha-txt-2 {
+    border: 0;
+  }
+}
